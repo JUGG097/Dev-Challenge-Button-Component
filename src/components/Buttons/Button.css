@@ -1,0 +1,117 @@
+.default-btn {
+    border-radius: 6px;
+    background-color: #E0E0E0;
+    padding: 5px 15px;
+    border: none;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    cursor: pointer;
+}
+
+.default-btn:hover, :focus {
+    background-color: #AEAEAE;
+}
+
+.outline {
+    color: #3D5AFE;
+    border: 1px solid #3D5AFE;
+    background-color: white;
+    cursor: pointer;
+}
+
+.outline:hover, :focus {
+    background-color: rgba(41, 98, 255, 0.1);
+}
+
+.text {
+    background-color: white;
+    box-shadow: none;
+    color: #3D5AFE;
+    cursor: pointer;
+}
+
+.text:hover {
+    background-color: rgba(41, 98, 255, 0.1);
+}
+
+.disableShadow {
+    background-color: #2962FF;
+    color: white;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.disableShadow:hover{
+    background-color: #0039CB;;
+}
+
+.disabled{
+    background-color: #E0E0E0;
+    color: #9E9E9E;
+    cursor: auto;
+    
+}
+
+.disabled:hover{
+    background-color: #E0E0E0;
+}
+
+.text-disabled {
+    background-color: transparent;
+    color: #9E9E9E ;
+    box-shadow: none;
+    cursor: auto;
+}
+
+.text-disabled:hover{
+    background-color: transparent;
+}
+
+.primary {
+    background-color: #2962FF;
+    color: white;
+    box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+    cursor: pointer;;
+}
+
+.primary:hover {
+    background-color: #0039CB;;
+}
+
+
+
+.secondary {
+    background-color: #455A64;
+    color: white;
+    box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+    cursor: pointer;
+}
+
+.secondary:hover {
+    background-color: #1C313A;
+} 
+
+.danger {
+    background-color: #D32F2F;
+    color: white;
+    box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+    cursor: pointer;
+}
+
+.danger:hover {
+    background-color: #9A0007;
+}
+
+.sm-btn {
+    width: 5rem ;
+    height: 2rem
+} 
+
+.md-btn {
+    width: 6em ;
+    height: 2.5rem
+} 
+
+.lg-btn {
+    width: 6.5em ;
+    height: 3rem
+} 
